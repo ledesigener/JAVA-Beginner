@@ -1,0 +1,21 @@
+String sentence(String SType)
+{
+    String S= Stype.charAt(Stype.length() - 1);
+
+    if (S == '.') 
+    {
+        return "declarative";
+    } 
+    else if (S == '?') 
+    {
+        return "interrogative";
+    } 
+    else if (S == '!') 
+    {
+        return "exclamatory";
+    } 
+    else 
+    {
+        return "Bad Ending";
+    }
+}

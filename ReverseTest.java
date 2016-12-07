@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class ReverseTest
+{
+    public static void main (String[] args)
+    {
+        //Keyboard Entry from user. Month and day from user
+       
+        Scanner keyboard = new Scanner( System.in );
+        System.out.println("Enter a string Please: ");
+        String s = keyboard.nextLine();
+    
+        ReverseString(s);
+    }
+     //Reverse String Method
+        
+    private static void ReverseString (String s)
+    {
+        System.out.println("The Reverse is : ");
+        System.out.println(actionReverse(s));
+    }
+
+      private static String actionReverse (String s)
+    {
+        
+        if (s.length() <= 1) return s;
+        else return actionReverse(s.substring(1) ) + s.charAt(0);
+    }
+}
