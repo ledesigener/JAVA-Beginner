@@ -1,0 +1,5 @@
+a) justin@cscie10a is not valid because of the "@" character, java does not allow "@" Character to be part of an identifier's name
+
+b)number-of-wins is not valid because of the dash, dash are not permited
+
+c) for: is a a key word, it is a loop and java does not allow that
