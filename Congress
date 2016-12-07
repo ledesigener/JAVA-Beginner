@@ -1,0 +1,60 @@
+import java.lang.Math;
+import java.util.Scanner;
+
+class addition
+{
+    public double Number;
+    public double Sum = 0;
+    
+    // Addition Method
+    
+    public double addition(double Value)
+    {
+        Scanner keyboard = new Scanner(System.in);
+        Value = 0;
+        
+    do{
+        Number = keyboard.nextDouble();
+        
+        Value += Number;
+        
+    }while (Number != 's');
+    
+    return Value;   
+    }
+    
+    //Multiplication Mehod
+    
+    public double multiplication(double Value)
+    {
+        Scanner keyboard = new Scanner(System.in);
+        Value = 0;
+        
+    do{
+        Number = keyboard.nextDouble();
+        
+        Value *= Number;
+        
+    }while (Number != 's');
+    
+    return Value;   
+    }
+    
+    //Substrac Method 
+    
+    public double multiplication(double Value)
+    {
+        Scanner keyboard = new Scanner(System.in);
+        Value = 0;
+        
+    do{
+        Number = keyboard.nextDouble();
+        
+        Value -= Number;
+        
+    }while (Number != 's');
+    
+    return Value;   
+    }
+    
+}
